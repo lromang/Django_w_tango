@@ -1,9 +1,8 @@
 ## Django with Tango
 
-Django lessons extracted from: 
+Django lessons from: 
 
-```
-How to Tango with Django 1.9
-Azzopardi L Maxwell D
 
-```
+> How to Tango with Django 1.9
+> Azzopardi L Maxwell D
+
