@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
     <head>
+        {% load staticfiles %}
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -19,6 +20,9 @@
         <div>
             Hey there partner! <br />
             <strong>{{boldmessage}}</strong> <br />
+            <div>
+                <img src="{% static "images/phone.png" %}" alt="Picture of Rango">
+            </div>
         </div>
         <div>
             <a href="/rango/about">About</a> <br />
